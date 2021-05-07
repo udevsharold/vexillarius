@@ -4,7 +4,7 @@
 ## What's this?
 This package is an imposter holding special privilege (com.apple.BluetoothUIService entitlement) in iOS 14 for displaying that little tiny banner. It's designed as an On-Demand daemon and will be activated whenever it's summoned ([by some dark magic](https://github.com/udevsharold/perseus/blob/b2fae5375fd04694e3261f5da43458a4006b891e/Perseus.xm#L79)).
 
-As of iOS 14.3, only few entities hold this special privilege (com.apple.bannerkit.post):
+As of iOS 14.3, only few entities hold special privilege (com.apple.bannerkit.post) for posting banners:
 - com.apple.BluetoothUIService
 - com.apple.DragUI.druid
 - com.apple.BannerKitTest
