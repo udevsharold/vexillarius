@@ -27,7 +27,7 @@ Example use case of this package could be found in
 [line](https://github.com/udevsharold/perseus/blob/b2fae5375fd04694e3261f5da43458a4006b891e/Perseus.xm#L79).
 
 ## Notice
-I didn't spend too much time on exploring all other options that are availble in this package, one of them is .backgroundColor. So, it's provided as it is.
+I didn't spend too much time on exploring all other options that are available in this package, one of them is .backgroundColor. So, it's provided as it is.
 
 ## License
 All source code in this repository are licensed under GPLv3, unless stated otherwise.
