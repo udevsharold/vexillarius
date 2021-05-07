@@ -23,7 +23,7 @@ So technically, you could create/design your own banner using
 
 ## Example Implementation
 Example use case of this package could be found in 
-[Perseus](https://github.com/udevsharold/perseus)'s source code. For you laziness, specifically this 
+[Perseus](https://github.com/udevsharold/perseus)'s source code. For your laziness, specifically this 
 [line](https://github.com/udevsharold/perseus/blob/b2fae5375fd04694e3261f5da43458a4006b891e/Perseus.xm#L79).
 
 ## Notice
