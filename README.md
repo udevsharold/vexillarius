@@ -19,7 +19,7 @@ They all however works by sending XPC message to
 postPresentable:withOptions:userInfo:error:
 ```
 So technically, you could create/design your own banner using 
-[BNBannerSource](https://github.com/udevsharold/iOS-14.3-Headers/blob/acfaa34b5a3bdf288ae972ee72b47ebcbbd45f89/System/Library/PrivateFrameworks/BannerKit.framework/BNBannerSource.h) (I wouldn't), but you'll also have to deal with the entitlement.
+[BNBannerSource](https://github.com/udevsharold/iOS-14.3-Headers/blob/acfaa34b5a3bdf288ae972ee72b47ebcbbd45f89/System/Library/PrivateFrameworks/BannerKit.framework/BNBannerSource.h) (I wouldn't), but you'll also have to deal with the entitlement. vexillarius, on the other hand, sends XPC message to BluetoothUIService, and let it do all the dirty work of designing and managing the banners, and then dispatch it to BannerKit.
 
 ## Example Implementation
 Example use case of this package could be found in 
