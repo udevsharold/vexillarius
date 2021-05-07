@@ -1,0 +1,11 @@
+Package: com.udevs.vexillarius
+Name: vexillarius
+Version: 0.0.2
+Architecture: iphoneos-arm
+Description: Standard Bearer
+Maintainer: udevs
+Author: udevs
+Section: System
+Tag: role::hacker
+Icon: https://udevsharold.github.io/repo/depictions/com.udevs.vexillarius/icon/icon.png
+Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.vexillarius

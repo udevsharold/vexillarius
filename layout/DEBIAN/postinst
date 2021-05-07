@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "Resurrecting vexillarius..."
+chown mobile:staff /usr/libexec/vexillarius
+chmod 755 /usr/libexec/vexillarius
+chown root:wheel /Library/LaunchDaemons/com.udevs.vexillarius.plist
+chmod 644 /Library/LaunchDaemons/com.udevs.vexillarius.plist
+launchctl load /Library/LaunchDaemons/com.udevs.vexillarius.plist 2> /dev/null
+
+exit 0
