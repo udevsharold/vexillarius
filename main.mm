@@ -68,7 +68,7 @@ static void handleXPCObject(xpc_object_t object) {
     
     const char* icon = xpc_dictionary_get_string(object, VXKey.icon);
     if (icon){
-        
+        xpc_dictionary_set_string(message, BSUIKey.icon, icon);
     }
     
     const char* identifier = xpc_dictionary_get_string(object, VXKey.identifier);
